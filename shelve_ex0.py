@@ -20,7 +20,9 @@ temp = d['xxx']
 temp.append(666)
 d['xxx'] = temp
 
-print(d['xx'])  #alredy in the file
+print(d['xx'])  #alredy in the file : 
+                # d['xx'] = [0,1,2]
+                # d['xx'].append(5)
 print(d['xxx'])
 d.close()
 
